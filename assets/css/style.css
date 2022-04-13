@@ -383,6 +383,7 @@
 
     body {
         background-color: #DCDCDD;
+    
     }
 
     a {
@@ -416,6 +417,13 @@
         right: 0;
     }
 
+    main {
+        height: auto;
+    }
+    section {
+        height: auto;
+    }
+
     .title a {
         color: white;
         font-size: 25px;
@@ -434,6 +442,10 @@
     .list a {
         color: white;
         font-size: 15px;
+    }
+    
+    .list li:hover {
+        transform: scale(1.1, 1.1);
     }
 
     .list a:hover {
@@ -647,7 +659,7 @@
         align-self: stretch;
         display: flex;
         flex-flow: column nowrap;
-        height: 100%;
+        height: auto;
         padding: 0 150px;
         justify-content: space-between;
         align-items: center;
@@ -659,7 +671,6 @@
         flex-flow: row nowrap;
         justify-content: space-around;
         align-content: center;
-        margin-bottom: 20px;
         background-color: #fff;
         padding: 20px;
         border-radius: 20px;
@@ -673,6 +684,12 @@
         flex-direction: column;
         justify-content: space-evenly;
     }
+
+    .box-s .list-1 li:hover{
+        transform: scale(1.1, 1.1);
+    }
+
+
 
     /* STYLE CONTACTO ----------------------- */
     .container-c{
