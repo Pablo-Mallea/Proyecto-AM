@@ -34,7 +34,7 @@
 
     header {
         grid-area: header;
-        background-color: #4C5C68;
+        background-color: #3F3434;
         color: white;
     }
 
@@ -80,7 +80,7 @@
     footer {
         padding: 10px;
         grid-area: footer;
-        background-color: #4C5C68;
+        background-color: #3F3434;
         color: #fff;
         display: flex;
         flex-direction: column;
@@ -164,8 +164,8 @@
         align-items: center;
        
     }
-    .container-n h2 {
-        color: #1985A1;
+    h2 {
+        color: #fff;
         margin-top: 15px;
     }
 
@@ -216,11 +216,6 @@
         height: 100%;
     }
     
-    .container-p h2 {
-        color: #1985A1;
-        margin-top: 15px;
-    }
-
     .box-p {
         display: flex;
         flex-direction: column;
@@ -265,10 +260,7 @@
         align-items: center;
         
     }
-    .container-s h2{
-        color: #1985A1;
-        margin-top: 15px;
-    }
+    
 
     .box-s {
         display: flex;
@@ -299,10 +291,6 @@
         align-items: center;
     }
     
-    .container-c h2 {
-        color: #1985A1;
-        margin-top: 15px;
-    }
 
     .datos{
         background-color: #fff;
