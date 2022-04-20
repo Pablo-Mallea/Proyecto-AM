@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
 
 * {
@@ -7,10 +6,35 @@
     font-family: 'Comfortaa', sans-serif;
 }
 
-@media screen and (max-width: 1199px) {
+
+body {
+    background: linear-gradient(180deg, #B1AEAE 0%, #878484 56.77%, #333232 100%);
+
+}
+header{
+    background-color: #3F3434;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+footer{
+    background-color: #3F3434;
+}
+
+li a{
+    padding: 10px;
+    
+}
+
+h4{
+    color: #FC6625;
+    font-size: 25px;
+}
+
+/* @media screen and (max-width: 1199px) {
 
     body {
-        /* background-color: #DCDCDD; */
         background: linear-gradient(180deg, #B1AEAE 0%, #878484 56.77%, #333232 100%);
     }
 
@@ -118,7 +142,7 @@
         font-size: 18px;
     }
 
-    /* STYLE INDEX ---------------------- */
+    /* STYLE INDEX ---------------------- 
 
     .container-i{
         grid-area: section;
@@ -153,7 +177,7 @@
         line-height: 1.8;
     }
 
-    /* STYLE NOSOTROS ---------------------- */
+    /* STYLE NOSOTROS ---------------------- 
 
     .container-n {
         grid-area: section;
@@ -205,7 +229,7 @@
         padding-bottom: 10px;
     }
 
-    /* STYLE PROYECTOS ------------------------------- */
+    /* STYLE PROYECTOS ------------------------------- 
     
     .container-p{
         grid-area: section;
@@ -249,7 +273,7 @@
         height: 100%;
     }
 
-    /* STYLE SERVICIOS ------------------- */
+    /* STYLE SERVICIOS ------------------- 
     
     .container-s{
         grid-area: section;
@@ -280,7 +304,7 @@
         margin: 15px 0;
     }
 
-    /* STYLE CONTACTO ------------------------- */
+    /* STYLE CONTACTO ------------------------- 
     
     .container-c{
         grid-area: section;
@@ -365,13 +389,14 @@
         border-color: transparent;
     }
 
-}
+} */
 
-/* DESKTOP MEDIA ----------------------------- */
+/* 
+    /* DESKTOP MEDIA ----------------------------- 
 @media screen and (min-width: 1200px) {
 
     body {
-        /* background-color: #DCDCDD; */
+        
         background: linear-gradient(180deg, #B1AEAE 0%, #878484 56.77%, #333232 100%);
     
     }
@@ -401,7 +426,6 @@
         flex-flow: row wrap;
         justify-content: space-between;
         align-items: center;
-        
     }
     
     section {
@@ -484,7 +508,7 @@
         font-size: 15px;
     }
 
-    /* STYLE INDEX ------------------------------------ */
+    /* STYLE INDEX ------------------------------------ 
     
     .container-i {
         grid-area: section;
@@ -524,7 +548,7 @@
         line-height: 2;
     }
 
-    /* STYLE NOSOTROS -------------------- */
+    /* STYLE NOSOTROS -------------------- 
     .container-n{
         grid-area: section;
         align-self: stretch;
@@ -581,7 +605,7 @@
         padding-bottom: 10px;
     }
 
-    /* STYLE PROYECYTO ----------------------- */
+    /* STYLE PROYECYTO ----------------------- 
 
     .container-p{
         grid-area: section;
@@ -630,7 +654,7 @@
         height: 100%;
     }
 
-    /* STYLE SERVICIOS --------------------------- */
+    /* STYLE SERVICIOS --------------------------- 
 
     .container-s{
         grid-area: section;
@@ -668,7 +692,7 @@
         transform: scale(1.1, 1.1);
     }
 
-    /* STYLE CONTACTO ----------------------- */
+    /* STYLE CONTACTO ----------------------- 
     .container-c{
         grid-area: section;
         align-self: stretch;
@@ -762,4 +786,4 @@
         border-color: transparent;
     }
     
-}
+} */
