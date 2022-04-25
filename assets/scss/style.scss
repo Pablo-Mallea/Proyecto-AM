@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+@import "colors";
+@import "layout/grid";
+@import "layout/header";
+@import "layout/main";
+@import "layout/footer";
+
+
+body {
+    background: $bg;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+h2 {
+    margin: 0;
+    color: #fff;
+    padding: 10px 0;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+h4 {
+    color: #fff;
+    font-size: 20px;
+    margin: 0;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+h6 {
+    color: #FC6625;
+    font-size: 22px;
+    margin: 0;
+}
+
+p {
+    margin-bottom: 0;
+}
+.custom-start {
+    display: flex;
+    justify-content: center;
+}
+
+.custom-end {
+    display: flex;
+    justify-content: center;
+}
+
+.custom-evenly {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media (min-width: 992px){
+    .custom-start {
+        display: flex;
+        justify-content: start;
+    }
+
+    .custom-end {
+        display: flex;
+        justify-content: end;
+    }
+
+    .custom-evenly {
+        display: flex;
+        justify-content: end;
+    }
+}
