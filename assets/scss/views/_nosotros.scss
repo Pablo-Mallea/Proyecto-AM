@@ -1,0 +1,43 @@
+.card-n {
+    @extend .card;
+    
+    padding: 10px 15px;
+
+    .texto-n {
+        padding: 10px 5px;
+    }
+}
+
+@media (max-width: 991px) {
+
+    .data {
+        padding: 15px 0px;
+
+        .info {
+            @include flex-column-center;
+            padding: 10px 0;
+
+        }
+    }
+}
+
+@media (min-width: 992px) {
+
+    .texto-n {
+        padding: 15px 0;
+    }
+
+    .data {
+        padding: 15px 0;
+
+        .info {
+            @include flex-column-center;
+            
+            h6 {
+                font-size: 26px;
+            }
+
+        }
+
+    }
+}

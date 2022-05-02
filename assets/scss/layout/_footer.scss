@@ -1,7 +1,7 @@
 @media (max-width:991px) {
     footer {
-        background-color: $elements-bg;
-        color: $color;
+        background-color: map-get($colors, elements);
+
         grid-area: footer;
 
         display: flex;
@@ -16,6 +16,11 @@
             justify-content: center;
             align-items: center;
             padding: 5px 0;
+            
+            h3{
+                color: map-get($colors, color);
+                font-size: 16px;
+            }
         }
 
         a {
@@ -28,7 +33,9 @@
             }
         }
 
-
+        p{
+            color: map-get($colors, color);
+        }
         ul {
             display: flex;
             flex-flow: row nowrap;
@@ -44,7 +51,7 @@
                 padding: 5px 10px;
 
                 & :hover {
-                    color: #FC6625;
+                    color: map-get($colors, links);
                 }
 
                 a {
@@ -56,8 +63,7 @@
 }
 @media (min-width:992px ) {
     footer {
-        background-color: $elements-bg;
-        color: $color;
+        background-color: map-get($colors, elements);
         grid-area: footer;
         display: flex;
         flex-flow: row nowrap;
@@ -71,6 +77,11 @@
             justify-content: center;
             align-items: center;
             padding: 5px 0;
+
+            h3{
+                color: map-get($colors, color);
+                font-size: 18px;
+            }
         }
 
         a {
@@ -82,6 +93,9 @@
             }
         }
 
+        p{
+            color: map-get($colors, color);
+        }
 
         ul {
             display: flex;
@@ -98,7 +112,7 @@
                 padding: 5px 10px;
 
                 & :hover {
-                    color: #FC6625;
+                    color: map-get($colors, links);
                 }
 
                 a {
