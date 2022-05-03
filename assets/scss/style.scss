@@ -13,6 +13,7 @@
 @import "views/index";
 @import "views/nosotros";
 @import "views/proyectos";
+@import "views/contacto";
 
 @import "utilities/colors";
 @import "utilities/mixins";
@@ -35,7 +36,7 @@ a {
 }
 h2 {
     margin: 0;
-    color: #fff;
+    font-size: 26px;
     padding: 10px 0;
     color: map-get($colors, detalles);
 }
@@ -45,7 +46,7 @@ h3 {
 }
 
 h4 {
-    color: #fff;
+    color: map-get($colors, color);
     font-size: 20px;
     margin: 0;
 }
@@ -54,11 +55,6 @@ h5 {
     font-size: 18px;
 }
 
-h6 {
-    color: #FC6625;
-    font-size: 22px;
-    margin: 0;
-}
 
 p {
     margin-bottom: 0;

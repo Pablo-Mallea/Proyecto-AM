@@ -7,22 +7,17 @@
 @media (min-width: 300px) and (max-width: 991px) {
   #grid {
     display: grid;
-    grid-template-areas: "header" "nav" "main" "footer";
+    grid-template-areas: "header" "nav" "main" "footer";
     grid-template-rows: auto;
     grid-template-columns: auto; } }
 
 @media (min-width: 992px) {
   #grid {
     display: grid;
-    grid-template-areas: "header nav" "main main" "footer footer";
+    grid-template-areas: "header nav" "main main" "footer footer";
     grid-template-rows: auto;
     grid-template-columns: 50% 50%; } }
 
-/* $bg: linear-gradient(180deg, #EEEEEE 0%, rgba(132, 132, 132, 0.8) 100%);;
-$elements-bg: #3F3434;
-$detalles: #FC6625;
-$color: #fff;
-$bg-card: #E5E5E5; */
 @media (max-width: 991px) {
   header {
     background-color: #4C5C68;
@@ -259,11 +254,13 @@ $bg-card: #E5E5E5; */
     font-size: 16px;
     line-height: 1.6; }
 
-/* $bg: linear-gradient(180deg, #EEEEEE 0%, rgba(132, 132, 132, 0.8) 100%);;
-$elements-bg: #3F3434;
-$detalles: #FC6625;
-$color: #fff;
-$bg-card: #E5E5E5; */
+.btn-c {
+  background-color: #FC6625;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px; }
+
 body {
   background: linear-gradient(180deg, #EEEEEE 0%, rgba(132, 132, 132, 0.8) 100%); }
 
@@ -280,7 +277,7 @@ a {
 
 h2 {
   margin: 0;
-  color: #fff;
+  font-size: 26px;
   padding: 10px 0;
   color: #1985A1; }
 
@@ -294,11 +291,6 @@ h4 {
 
 h5 {
   font-size: 18px; }
-
-h6 {
-  color: #FC6625;
-  font-size: 22px;
-  margin: 0; }
 
 p {
   margin-bottom: 0; }

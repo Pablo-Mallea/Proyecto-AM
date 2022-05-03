@@ -1,0 +1,7 @@
+.btn-c{
+    background-color: map-get($colors , links); 
+    color: map-get($colors , color);
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
