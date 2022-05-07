@@ -7,14 +7,14 @@
 @media (min-width: 300px) and (max-width: 991px) {
   #grid {
     display: grid;
-    grid-template-areas: "header" "nav" "main" "footer";
+    grid-template-areas: "header" "nav" "main" "footer";
     grid-template-rows: auto;
     grid-template-columns: auto; } }
 
 @media (min-width: 992px) {
   #grid {
     display: grid;
-    grid-template-areas: "header nav" "main main" "footer footer";
+    grid-template-areas: "header nav" "main main" "footer footer";
     grid-template-rows: 40px auto 100px;
     grid-template-columns: 50% 50%; } }
 
@@ -230,7 +230,8 @@
   .card-n .texto-n {
     padding: 10px 5px; }
   .card-n h6 {
-    color: #1985A1; }
+    color: #1985A1;
+    font-size: 20px; }
 
 @media (max-width: 991px) {
   .data {
@@ -314,7 +315,7 @@ main {
   padding: 15px; }
 
 h2 {
-  margin-bottom: 10px;
+  margin: 0;
   font-size: 26px;
   padding: 10px 0;
   color: #1985A1; }
