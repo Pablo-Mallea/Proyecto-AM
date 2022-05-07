@@ -6,6 +6,9 @@
     .texto-n {
         padding: 10px 5px;
     }
+    h6{
+        color: map-get($colors, detalles);
+    }
 }
 
 @media (max-width: 991px) {
