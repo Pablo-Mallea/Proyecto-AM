@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
-
 * {
     margin: 0;
     padding: 0;
@@ -28,16 +27,20 @@ a {
     text-decoration: none;
     color: #fff;
 }
+
 main{
     grid-area: main;
 }
+
 .container{
     padding: 0;
 }
+
 .card {
     border-radius: 10px;
     padding: 15px;
 }
+
 h2 {
     margin: 0;
     font-size: 26px;

@@ -1,6 +1,5 @@
 .card-n {
     @extend .card;
-    
     padding: 10px 15px;
 
     .texto-n {
@@ -33,7 +32,6 @@
 
     .data {
         padding: 15px 0;
-
         .info {
             @include flex-column-center;
             
@@ -42,6 +40,5 @@
             }
 
         }
-
     }
 }
