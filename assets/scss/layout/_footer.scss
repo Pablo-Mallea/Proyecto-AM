@@ -1,9 +1,7 @@
 @media (max-width:991px) {
     footer {
         background-color: map-get($colors, elements);
-
         grid-area: footer;
-
         display: flex;
         flex-flow: column wrap;
         justify-content: center;
@@ -36,6 +34,7 @@
         p{
             color: map-get($colors, color);
         }
+
         ul {
             display: flex;
             flex-flow: row nowrap;
