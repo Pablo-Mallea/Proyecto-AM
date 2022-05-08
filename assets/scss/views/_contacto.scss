@@ -1,0 +1,18 @@
+.contact-list{
+    margin: 0;
+    padding: 15px;
+    list-style-type: none;
+    font-size: 20px;
+    min-height: 200px; 
+    @include flex-column-between;
+}
+.card-contact{
+    @extend .card;
+    .btn-c{
+        background-color: map-get($colors , links); 
+        color: map-get($colors , color);
+        border: none;
+        border-radius: 5px;
+        padding: 5px 10px;
+    }
+}

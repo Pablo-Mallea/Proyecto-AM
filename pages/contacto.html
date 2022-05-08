@@ -5,14 +5,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AM Obras y Servicios</title>
+    <meta name="keywords" content="html, css, css grid,bootstrap 5, node js, arquitectura, construccion, diseño">
+    <title>AM Contacto</title>
+    <meta name="description"
+        content="Consultas sobre construccion, planificación, diseño y presupuesto. Ubicados en Bs As, CABA y Provincia">
     <link rel="shorcut icon" href="../assets/img/Logo-AM-Model.png">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
     <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 
-<body>
+<body id="grid">
     <header>
         <div class="container" >
 
@@ -49,7 +53,27 @@
                 </div>
             </div>
         </div>
+
     </header>
+    <nav>
+        <ul>
+            <li>
+                <a href="../index.html">Inicio</a>
+            </li>
+            <li>
+                <a href="../pages/nosotros.html">Nosotros</a>
+            </li>
+            <li>
+                <a href="../pages/proyectos.html">Proyectos</a>
+            </li>
+            <li>
+                <a href="../pages/servicios.html">Servicios</a>
+            </li>
+            <li>
+                <a href="../pages/contacto.html">Contacto</a>
+            </li>
+        </ul>
+    </nav>
 
     <main>
         <section>
@@ -64,29 +88,31 @@
                             <img src="../assets/img/email-read.png" class="img-fluid rounded-start" alt="mail png">
                         </div>
                         <div class="col-md-4">
-                            <div class="card-body">
-                                <h5 class="card-title" style="padding-bottom: 15px;">Ubicación: Zona Norte BsAs -
-                                    Argentina</h5>
-                                <h5 class="card-title" style="padding-bottom: 15px;">Telefono: +011 12345678</h5>
-                                <h5 class="card-title" style="padding-bottom: 15px;">Nuestro correo: empresa@mail.com</h5>
-                            </div>
+                            <ul class="contact-list">
+                                <li><strong>Ubicación:</strong> Zona Norte BsAs -
+                                    Argentina</li>
+                                <li><strong>Telefono:</strong> +011 12345678</li>
+                                <li><strong>Nuestro correo:</strong> empresa@mail.com</li>
+                            </ul>
                         </div>
                         <div class="col-md-4">
-                            <div class="card-body">
+                            <div class="card-contact">
                                 <div class="mb-4">
                                     <label for="exampleFormControlInput1" class="form-label">Nombre</label>
-                                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nombre...">
+                                    <input type="text" class="form-control" id="exampleFormControlInput1"
+                                        placeholder="Nombre...">
                                 </div>
                                 <div class="mb-4">
                                     <label for="exampleFormControlInput1" class="form-label">Email</label>
-                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                                        placeholder="name@example.com">
                                 </div>
                                 <div class="mb-4">
                                     <label for="exampleFormControlTextarea1" class="form-label">Deja tu consulta</label>
                                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                                 </div>
                                 <div class="mb-3">
-                                    <button type="submit" class="btn" style="background-color: #FC6625; color: #fff;">Enviar</button>
+                                    <button type="submit" class="btn-c">Enviar</button>
                                 </div>
                             </div>
                         </div>
@@ -99,9 +125,12 @@
 
     <footer>
 
-        <div class="container">
-            <div class="row align-items-center justify-content-between">
-                <div class="col-sm-3" style="padding: 10px;">
+        <div>
+            <a href="../index.html">
+                <img src="../assets/img/Logo-AM-Model-removebg-preview.png" alt="logo" class="logo">
+            </a>
+            <h3>AM Obras y Servicios</h3>
+        </div>
 
                     <div class="row custom-start align-items-center">
                         <div class="container" style="width: auto; margin: 0; ">

@@ -1,0 +1,124 @@
+@media (max-width:991px) {
+    footer {
+        background-color: map-get($colors, elements);
+
+        grid-area: footer;
+
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+
+        div {
+            width: 100%;
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: center;
+            padding: 5px 0;
+            
+            h3{
+                color: map-get($colors, color);
+                font-size: 16px;
+            }
+        }
+
+        a {
+            margin: 5px 0;
+
+            .logo {
+                height: 30px;
+                width: 30px;
+                border-radius: 30px;
+            }
+        }
+
+        p{
+            color: map-get($colors, color);
+        }
+        ul {
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: space-evenly;
+            align-items: center;
+            width: 100%;
+            padding: 0;
+            margin: 0;
+
+            li {
+                list-style-type: none;
+
+                padding: 5px 10px;
+
+                & :hover {
+                    color: map-get($colors, links);
+                }
+
+                a {
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+}
+@media (min-width:992px ) {
+    footer {
+        background-color: map-get($colors, elements);
+        grid-area: footer;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 150px;
+        div {
+            width: auto;
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: center;
+            padding: 5px 0;
+
+            h3{
+                color: map-get($colors, color);
+                font-size: 18px;
+            }
+        }
+
+        a {
+            margin: 5px 0;
+            .logo {
+                height: 30px;
+                width: 30px;
+                border-radius: 30px;
+            }
+        }
+
+        p{
+            color: map-get($colors, color);
+        }
+
+        ul {
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: space-evenly;
+            align-items: center;
+            width: 100%;
+            padding: 0;
+            margin: 0;
+
+            li {
+                list-style-type: none;
+
+                padding: 5px 10px;
+
+                & :hover {
+                    color: map-get($colors, links);
+                }
+
+                a {
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+}

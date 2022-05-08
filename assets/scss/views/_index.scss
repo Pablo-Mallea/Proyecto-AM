@@ -1,0 +1,76 @@
+@media (max-width:991px) {
+    main {
+        grid-area: main;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 15px;
+
+        .img-index {
+            border-radius: 10px 10px 0 0;
+        }
+
+        .card-body {
+            background-color: map-get($colors, card);
+            padding: 20px;
+            border-radius: 0 0 10px 10px;
+
+            h1 {
+                margin-bottom: 5px;
+                font-size: 24px;
+            }
+
+            h2 {
+                color: map-get($colors, detalles);
+                font-size: 18px;
+            }
+
+            p .texto {
+                text-align: start;
+                padding: 10px 0;
+                font-size: 16px;
+                line-height: 1.8;
+            }
+        }
+    }
+}
+
+@media (min-width:992px) {
+    main {
+        grid-area: main;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 150px;
+
+        .img-index {
+            border-radius: 10px 0 0 10px;
+            
+        }
+
+        .card-body {
+            padding: 20px;
+            border-radius: 0 10px 10px 0;
+            @include flex-column-evenly;
+            align-items: flex-start;
+
+            h1 {
+                margin-bottom: 5px;
+                font-size: 30px;
+                
+            }
+
+            h2 {
+                color: map-get($colors, detalles);
+                font-size: 20px;
+            }
+
+            p {
+                text-align: start;
+                padding: 10px 50px 10px 0;
+                font-size: 18px;
+                line-height: 1.8;
+            }
+        }
+    }
+}
