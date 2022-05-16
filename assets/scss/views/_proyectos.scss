@@ -1,3 +1,10 @@
+.img-p {
+    @include flex-row-center;
+}
+.img-fluid{
+    @extend .img-fluid;
+    max-height: 400px;
+}
 .card-p{
     @extend .card;
     border-radius: 15px;

@@ -7,14 +7,14 @@
 @media (min-width: 300px) and (max-width: 991px) {
   #grid {
     display: grid;
-    grid-template-areas: "header" "nav" "main" "footer";
+    grid-template-areas: "header" "nav" "main" "footer";
     grid-template-rows: auto;
     grid-template-columns: auto; } }
 
 @media (min-width: 992px) {
   #grid {
     display: grid;
-    grid-template-areas: "header nav" "main main" "footer footer";
+    grid-template-areas: "header nav" "main main" "footer footer";
     grid-template-rows: 40px auto 100px;
     grid-template-columns: 50% 50%; } }
 
@@ -26,7 +26,7 @@
       display: flex;
       flex-flow: row nowrap;
       justify-content: center;
-      font-size: 22px; }
+      font-size: 26px; }
       header .title :hover {
         color: #FC6625; }
       header .title a {
@@ -47,7 +47,7 @@
         nav ul li :hover {
           color: #FC6625; }
         nav ul li a {
-          font-size: 15px; } }
+          font-size: 16px; } }
 
 @media (min-width: 992px) {
   header {
@@ -125,7 +125,7 @@
         footer ul li :hover {
           color: #FC6625; }
         footer ul li a {
-          font-size: 15px; } }
+          font-size: 16px; } }
 
 @media (min-width: 992px) {
   footer {
@@ -185,14 +185,14 @@
       border-radius: 0 0 10px 10px; }
       main .card-body h1 {
         margin-bottom: 5px;
-        font-size: 24px; }
+        font-size: 26px; }
       main .card-body h2 {
         color: #1985A1;
-        font-size: 18px; }
+        font-size: 20px; }
       main .card-body p .texto {
         text-align: start;
         padding: 10px 0;
-        font-size: 16px;
+        font-size: 18px;
         line-height: 1.8; } }
 
 @media (min-width: 992px) {
@@ -214,14 +214,14 @@
       align-items: flex-start; }
       main .card-body h1 {
         margin-bottom: 5px;
-        font-size: 30px; }
+        font-size: 28px; }
       main .card-body h2 {
         color: #1985A1;
         font-size: 20px; }
       main .card-body p {
         text-align: start;
         padding: 10px 50px 10px 0;
-        font-size: 18px;
+        font-size: 16px;
         line-height: 1.8; } }
 
 .card-n {
@@ -255,6 +255,14 @@
       .data .info h6 {
         font-size: 26px; } }
 
+.img-p {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center; }
+
+.img-fluid {
+  max-height: 400px; }
+
 .card-p {
   border-radius: 15px;
   padding: 15px 20px;
@@ -267,8 +275,8 @@
   margin: 0;
   padding: 15px;
   list-style-type: none;
-  font-size: 20px;
-  min-height: 200px;
+  font-size: 17px;
+  min-height: 250px;
   display: flex;
   flex-direction: column;
   justify-content: space-between; }
@@ -328,7 +336,8 @@ h4 {
   margin: 0; }
 
 h5 {
-  font-size: 18px; }
+  font-size: 20px;
+  color: #1985A1; }
 
 p {
   margin-bottom: 0; }

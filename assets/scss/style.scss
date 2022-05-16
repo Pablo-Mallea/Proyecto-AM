@@ -59,7 +59,8 @@ h4 {
 }
 
 h5 {
-    font-size: 18px;
+    font-size: 20px;
+    color: map-get($colors, detalles);
 }
 
 p {
